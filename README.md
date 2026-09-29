@@ -164,7 +164,7 @@ Each of these generates a separate `outcome-INC-0XX-failed` memory in Hindsight,
 ### 1. Clone and configure
 
 ```bash
-git clone <this-repo>
+git clone https://github.com/harikiran-8679/IncidentMind.git
 cd IncidentMind
 ```
 
