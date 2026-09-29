@@ -1,7 +1,7 @@
 # 🧠 IncidentMind
 
 > **AI-powered on-call incident response that learns from every incident.**  
-> Built for Hack with Hyderabad 2026 · Stack: Python 3.11+ · Streamlit · Groq LLM · Hindsight (Vectorize)
+> Stack: Python 3.11+ · Streamlit · Groq LLM · Hindsight (Vectorize)
 
 ---
 
@@ -242,6 +242,7 @@ Open `http://localhost:8501`
 - **Recalled memories panel**: shows exactly which past incidents the agent used
 - **Skipped fixes**: agent explicitly warns about fixes that failed before (backed by real seeded data)
 - **Save & Teach**: "Fix Worked" / "Fix Failed" retain in one click with pre-filled service, root cause, and fix
+- **Live learning on new incidents**: paste any incident text (not just the seeded 15) and the agent recalls, analyzes, and — if you mark a fix as failed — remembers it immediately for the very next query, no restart required
 
 ---
 
