@@ -165,7 +165,7 @@ Each of these generates a separate `outcome-INC-0XX-failed` memory in Hindsight,
 
 ```bash
 git clone <this-repo>
-cd Prorotype
+cd IncidentMind
 ```
 
 Create `.env`:
